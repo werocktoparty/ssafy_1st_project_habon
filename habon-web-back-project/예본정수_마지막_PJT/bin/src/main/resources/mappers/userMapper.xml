@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 네임스페이스에 DAO 풀패키지명을 작성 -->
+<mapper namespace="com.ssafy.board.model.dao.UserDao">
+
+	<select id="userLogin" parameterType="Map" resultType="User">
+		SELECT *
+		FROM user
+		WHERE id = #{id} AND password = #{password}
+	</select>
+
+	<select id="checkUser" parameterType="User" resultType="User">
+		SELECT *
+		FROM user
+		WHERE id = #{id}
+	</select>
+
+	<insert id="insertUser" parameterType="User">
+		INSERT INTO user
+		VALUES
+		(#{id}, #{password}, #{name}, #{email},
+		#{nickname},#{age},#{img},#{sport},#{team},#{player},1000)
+	</insert>
+
+
+	<update id="updateUser" parameterType="User">
+		UPDATE user
+		SET
+		password = #{password},
+		nickname = #{nickname},
+		sport = #{sport},
+		team = #{team},
+		player = #{player}
+		WHERE id = #{id}
+	</update>
+
+
+	<select id="randomImg" resultType="String">
+	SELECT img
+	FROM elements
+	ORDER BY RAND()
+	LIMIT 1
+	</select>
+	
+	<update id="setImg" parameterType="map">
+	UPDATE user
+		SET
+		img = #{img}
+		WHERE id = #{id}
+	</update>
+
+	<update id="delectPoint" parameterType="String">
+		UPDATE user
+		SET
+		point = point -1000
+		WHERE id = #{id}
+	</update>
+
+</mapper>
