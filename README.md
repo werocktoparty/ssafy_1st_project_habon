@@ -49,11 +49,17 @@ SSAFY FIRST PROJECT - 스포츠 팬들을 위한 아상형월드컵 커뮤니티
     <tr>
         <th>로그인</th>
         <th>로그인성공</th>
-        <th>회원가입화면</th>
     </tr>
     <tr>
         <td><img src="./picture/로그인화면.gif" style: width=500px;></td>
         <td><img src="./picture/로그인성공.gif" style: width=500px;></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <th>회원가입화면</th>
+    </tr>
+    <tr>
         <td><img src="./picture/회원가입화면.gif" style: width=500px;></td>
     </tr>
 </table>
@@ -64,11 +70,17 @@ SSAFY FIRST PROJECT - 스포츠 팬들을 위한 아상형월드컵 커뮤니티
     <tr>
         <th>월드컵 메인</th>
         <th>월드컵 라운드선택</th>
-        <th>월드컵 진행</th>
     </tr>
     <tr>
         <td><img src="./picture/월드컵메인.gif" style: width=500px;></td>
         <td><img src="./picture/월드컵 라운드 선택.gif" style: width=500px;></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <th>월드컵 진행</th>
+    </tr>
+    <tr>
         <td><img src="./picture/월드컵 진행.gif" style: width=500px;></td>
     </tr>
 </table>
@@ -79,11 +91,17 @@ SSAFY FIRST PROJECT - 스포츠 팬들을 위한 아상형월드컵 커뮤니티
     <tr>
         <th>랜덤포인트</th>
         <th>선수순위</th>
-        <th>해당 월드컵 게시판</th>
     </tr>
     <tr>
         <td><img src="./picture/랜덤포인트.gif" style: width=500px;></td>
         <td><img src="./picture/선수 순위.gif" style: width=500px;></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <th>해당 월드컵 게시판</th>
+    </tr>
+    <tr>
         <td><img src="./picture/해당 월드컵 게시판.gif" style: width=500px;></td>
     </tr>
 </table>
@@ -94,15 +112,27 @@ SSAFY FIRST PROJECT - 스포츠 팬들을 위한 아상형월드컵 커뮤니티
     <tr>
         <th>글작성화면</th>
         <th>글작성후</th>
-        <th>게시판상세</th>
-        <th>글 삭제</th>
-        <th>신고</th>
     </tr>
     <tr>
         <td><img src="./picture/글작성화면.gif" style: width=500px;></td>
         <td><img src="./picture/글작성후.gif" style: width=500px;></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <th>게시판상세</th>
+        <th>글 삭제</th>
+    </tr>
+    <tr>
         <td><img src="./picture/게시판상세.gif" style: width=500px;></td>
         <td><img src="./picture/글 삭제.gif" style: width=500px;></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <th>신고</th>
+    </tr>
+    <tr>
         <td><img src="./picture/신고.gif"></td>
     </tr>
 </table>
